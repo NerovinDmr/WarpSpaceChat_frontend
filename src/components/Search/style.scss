@@ -1,0 +1,13 @@
+@import "../../styels/variables.scss";
+
+.search {
+  display: flex;
+  justify-content: center;
+  input {
+    width: 275px;
+    height: 40px;
+    background-color: $focus;
+    border: transparent;
+    border-radius: 4px;
+  }
+}

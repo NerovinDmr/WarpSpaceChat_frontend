@@ -1,0 +1,17 @@
+@import "../../styels/variables.scss";
+
+.user {
+  display: flex;
+  padding-top: 50px;
+  width: 100%;
+  justify-content: center;
+
+  &_avatar {
+  }
+  &_name {
+    color: $text;
+    font-size: 27px;
+    align-self: center;
+    margin-left: 15px;
+  }
+}

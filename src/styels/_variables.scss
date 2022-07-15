@@ -1,4 +1,22 @@
 // colors
 $main: #292f3f;
-$focus: rgba(0, 0, 0, 0.25);
+$focus: rgba(0, 0, 0, 0.251);
 $text: #fff;
+$hover: #b347ea;
+
+@mixin animatedBg {
+  background: linear-gradient(-45deg, #ae00ff8f, #018dff, #15ff00);
+  animation: gradientBG 5s ease infinite;
+  background-size: 400% 400%;
+}
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

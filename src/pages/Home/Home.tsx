@@ -1,5 +1,5 @@
 import React from "react";
-import { Search, User } from "../../components";
+import { ChatRoomsList, ContactsList, Search, User } from "../../components";
 import Mainlayout from "../../Layouts/Mainlayout";
 
 function Home() {
@@ -7,6 +7,8 @@ function Home() {
     <Mainlayout>
       <User />
       <Search />
+      <ContactsList />
+      <ChatRoomsList />
     </Mainlayout>
   );
 }

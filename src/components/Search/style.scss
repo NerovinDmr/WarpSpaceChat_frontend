@@ -3,11 +3,36 @@
 .search {
   display: flex;
   justify-content: center;
-  input {
-    width: 275px;
-    height: 40px;
+  margin-top: 20px;
+  form {
     background-color: $focus;
+    justify-content: center;
+    align-items: center;
+    width: 277px;
+    height: 50px;
+    display: flex;
+    border-radius: 5px;
+  }
+  input {
+    outline: none;
+    width: 232px;
+    height: 40px;
+    background-color: transparent;
     border: transparent;
     border-radius: 4px;
+    color: $text;
+    padding-left: 10px;
+  }
+}
+.btn {
+  background-color: #565e70;
+  width: 40px;
+  height: 40px;
+  border: transparent;
+  border-radius: 4px;
+
+  cursor: pointer;
+  &:hover {
+    background-color: $hover;
   }
 }

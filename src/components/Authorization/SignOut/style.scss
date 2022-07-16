@@ -1,0 +1,58 @@
+@import "../../../styels/variables.scss";
+.form-signup {
+  width: 430px;
+  height: 375px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 37px;
+  padding-right: 37px;
+  padding-top: 55px;
+
+  transition: all 0.5s ease;
+}
+label {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  display: block;
+}
+:focus {
+  outline: none;
+}
+.form-styling {
+  width: 100%;
+  height: 35px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background: rgba(230, 222, 222, 0.2);
+}
+.btn-signup {
+  background-color: $hover;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 23px;
+  cursor: pointer;
+}
+.form-signup input {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.form-signup input:focus,
+textarea:focus {
+  border: none;
+  padding-right: 40px;
+  transition: background 0.5s ease;
+}

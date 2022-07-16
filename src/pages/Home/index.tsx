@@ -2,7 +2,7 @@ import React from "react";
 import { ChatRoomsList, ContactsList, Search, User } from "../../components";
 import Mainlayout from "../../Layouts/Mainlayout";
 
-function Home() {
+export const Home: React.FC = () => {
   return (
     <Mainlayout>
       <User />
@@ -11,6 +11,4 @@ function Home() {
       <ChatRoomsList />
     </Mainlayout>
   );
-}
-
-export default Home;
+};

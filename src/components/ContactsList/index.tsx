@@ -11,8 +11,6 @@ export const ContactsList: React.FC = () => {
         <Contact />
         <Contact />
         <Contact />
-        <Contact />
-        <Contact />
       </div>
     </>
   );

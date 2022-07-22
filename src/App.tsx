@@ -1,5 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import { Auth, Home } from "./pages/";
+
+
 import "./styels/global.scss";
 
 function App() {
